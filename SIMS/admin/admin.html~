@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+		
+		<title>Blue Rain</title><meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Rowan Lewis" />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+		<link rel="stylesheet" title="Normal" type="text/css" media="screen" href="./styles/screen.css" /></head>
+
+	<body>
+		<div id="main">
+			<div id="header">
+				<h1>Administrator Area</h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="selected"><a href="./index.html">Academics</a></li>
+					<li><a href="./index.html">Attendance</a></li>
+					<li><a href="./index.html">Subjects</a></li>
+					<li><a href="./index.html">Logout</a></li>
+				</ul>
+			</div>
+			<div id="content">
+				<div class="article">
+					<h2>Welcome to the Administrator Area</h2>Please use the above links to edit any data for the current ongoing semester.<br /></div>
+				<div class="article">
+					<h3>New Semester</h3>
+					<p>Use
+this section to start the process of beginning a a new semester and
+initialisation of the new system.(Please keep all the relevant data
+ready before clicking here.) </p>
+				</div>
+			</div><br /><div id="footer">
+				<p>
+					Designed by <a href="http://www.pixelcarnage.com/">Alok Mishra</a><br />For MIT,Manipal.
+				</p>
+			</div>
+		</div>
+	</body></html>

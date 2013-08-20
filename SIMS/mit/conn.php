@@ -1,0 +1,31 @@
+<?php
+//conn.php
+
+
+
+function conn($sql)
+{
+$host = "localhost";      
+$user = "root";
+$pass = "bandobia";
+$db3   = "sims";
+
+    if (!($conn=mysql_connect($host, $user, $pass)))  {
+        printf("Error connecting to DataB");
+        email_error("connection",mysql_error());
+    }
+   
+ if (!($dab3=mysql_select_db($db3,$conn))){
+       printf("<p>Error connecting to DaB");
+        die("<p>There was a problem with the database");
+    }
+    $result = mysql_query($sql,$conn);
+
+    if (mysql_errno() == 0){
+      return $result;
+    }else{
+      die("<p>There was a problem with the database");
+      $result = 'Null';
+    }
+}
+?>
